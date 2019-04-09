@@ -1,0 +1,96 @@
+html, body, #root {
+  height: 100%;
+}
+
+
+.App {
+  text-align: center;
+  margin: 25% auto 17% auto;
+  height: 58%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Header{
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  width: 94%;
+  padding: 12% 3% 0% 3%;
+  position: fixed;
+  top: 0;
+  background-color: #1D3565;
+  z-index: 1001;
+  height: 8%;
+}
+.Header h2{
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+.Header .title{
+  text-align: center;
+  width:70%;
+  margin: -2% auto;
+}
+.Header img{
+  width: 100%; 
+
+}
+
+.Header .icon{
+  width: 10%; 
+
+}
+.Footer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 2.5% 0;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: white;
+  height: 12%;
+}
+.Footer div{
+  width: 20%;
+}
+
+.Footer a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.Footer div.iconTitle{
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+}
+
+.Footer img{
+  width: 50px;
+}
+
+
+
+

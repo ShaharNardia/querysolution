@@ -1,0 +1,36 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  color: #1d3565;
+  width: 90%;
+  padding: 1%;
+  position: fixed;
+  top: 27%;
+  left: 5%;
+  z-index: 1002;
+  border-radius: 10px;
+  text-align: left;
+  background-color: white;
+  vertical-align: middle;
+  font-size: 9pt;
+  text-decoration-line: none;
+}
+.box .icon {
+  margin: 0 5%;
+}
+.box .details {
+  font-weight: bold;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.box .goIcon {
+  width: 10%;
+  margin: 0 auto;
+  font-size: 40pt;
+}
+
+.box h2 {
+  font-size: 1.3em;
+  margin: 5px 0;
+}

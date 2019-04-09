@@ -1,0 +1,159 @@
+.billingPage {
+  margin-top: 30%;
+  color: #1d3565;
+  font-weight: 600;
+}
+.lightBlue{
+  color: #3FB8DF;
+}
+.value {
+  float: right;
+}
+.emailInput{
+  margin-top: 1%;
+  width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #1D3565;
+    color: #1D3565;
+    font-size: 13pt;
+    font-weight: 500;
+}
+.col4{
+  width:23%;
+  margin: 2% auto;
+}
+.tr, .tHead{
+  display: flex;
+  flex-direction: row;
+}
+.tr{
+  margin: 3% auto;
+}
+.invoiceInput{
+  background-color: inherit;
+  padding-top: 3%;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: silver;
+  color: #1D3565;
+  font-size: 13pt;
+  font-weight: 600;
+}
+.tbody{
+  background-color: white;
+}
+.clearEmail, .searchIcon{
+  position: relative;
+  top: -27px;
+  right: -46%;
+  width: 6%;
+}
+.label {
+  float: left;
+}
+.row {
+  width: 93%;
+  margin: 0% auto;
+}
+.row-padding{
+  margin-top: 6%;
+}
+.row-padding .label{
+  margin-bottom: 1%;
+}
+
+.clear {
+  clear: both;
+}
+hr {
+  margin: 4% 0;
+  width: 100%;
+}
+.emailInput, .invoiceInput{
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.invoicesTable{
+  width: 100%;
+  background-color: #E6EAED;
+  border-top-color: #E4E3E2;
+  border-top-style: solid;
+  border-top-width: 8px;
+  border-bottom-color: #E4E3E2;
+  border-bottom-style: solid;
+  border-bottom-width: 8px; 
+
+}
+/* .invoicesTable .header{
+ background-color: 	#E6EAED;
+} */
+
+
+
+/* All this css code is for the switch-checkbox*/ 
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 20px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: 0px;
+  bottom: -4px;
+  background-color: #3FB8DF;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #A2DFF1;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #A2DFF1;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
